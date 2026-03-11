@@ -24,7 +24,8 @@ fit_transform was applied only on the training set; the test set was only transf
 Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 
 ## Results
-| Metric| Score |
+| Metric | Score |
+| :--- | :--- |
 | **Training Accuracy** | 95.66% |
 | **Testing Accuracy** | 92.03% |
 
