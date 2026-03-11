@@ -33,10 +33,10 @@ Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 
 
 ## Confusion Matrix (Test Set):
-| Predicted REAL | Predicted FAKE |
-| :--- | :--- |
-Actual REAL | 600 | 33 |
-Actual FAKE | 68 | 566 |
+| | Predicted REAL | Predicted FAKE |
+|---|---|---|
+| Actual REAL | 600 | 33 |
+| Actual FAKE | 68 | 566 |
 
 True Positives (REAL correctly identified): 600
 True Negatives (FAKE correctly identified): 566
