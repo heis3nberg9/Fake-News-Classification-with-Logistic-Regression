@@ -6,10 +6,11 @@ The Answer is Python/ML. In this project we build a machine learning model to cl
 
 
 ## Dataset
-Source file: https://drive.google.com/file/d/1er9NJTLUA3qnRuyhfzuN0XUsoIC4a-_q/view
-Size: 6,335 articles
-Columns: title, text, label (FAKE / REAL)
-The dataset is fairly balanced between FAKE and REAL articles, as shown in the label distribution plot.
+* **Source file:** https://drive.google.com/file/d/1er9NJTLUA3qnRuyhfzuN0XUsoIC4a-_q/view
+* **Size:** 6,335 articles
+* **Columns:** title, text, label (FAKE / REAL)
+* The dataset is fairly balanced between FAKE and REAL articles, as shown in the label distribution plot.
+
 
 ## Approach
 * **Preprocessing:**
@@ -23,16 +24,20 @@ fit_transform was applied only on the training set; the test set was only transf
 * **Model:**  Logistic Regression
 Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 
+
 ## Results
 | Metric | Score |
 | :--- | :--- |
 | **Training Accuracy** | 95.66% |
 | **Testing Accuracy** | 92.03% |
 
+
 ## Confusion Matrix (Test Set):
 | Predicted REAL | Predicted FAKE |
+| :--- | :--- |
 Actual REAL        | 600    |         33|
 Actual FAKE         | 68      |        566|
+
 True Positives (REAL correctly identified): 600
 True Negatives (FAKE correctly identified): 566
 False Positives (FAKE misclassified as REAL): 68
