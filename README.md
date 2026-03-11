@@ -44,4 +44,6 @@ Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 * False Negatives (REAL misclassified as FAKE): 33
 
 ## Summary
-Fake news spreads quickly on the internet and can cause serious problems. It can confuse people, create panic, or spread lies. A Machine Learning project in Python can help solve this issue. Using Natural Language Processing (NLP), we can build a model that reads the news headline or article and predicts if it’s real or fake. This project helps people and media companies check information before trusting it
+Fake news spreads rapidly online and can have serious real-world consequences — from misleading the public to fueling panic and misinformation. Manually fact-checking every article is impractical, which is where Machine Learning comes in.
+This project builds a fake news classifier using Python and Natural Language Processing (NLP). The model is trained on a labeled dataset of real and fake news articles, learning to detect patterns in the text that distinguish credible reporting from misinformation. Given a news headline or article, it predicts whether the content is REAL or FAKE.
+The pipeline uses TF-IDF vectorization to convert raw text into meaningful numeric features, and Logistic Regression as the classification model — achieving a test accuracy of 92%
