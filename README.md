@@ -38,7 +38,10 @@ Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 | Actual REAL | 600 | 33 |
 | Actual FAKE | 68 | 566 |
 
-True Positives (REAL correctly identified): 600
-True Negatives (FAKE correctly identified): 566
-False Positives (FAKE misclassified as REAL): 68
-False Negatives (REAL misclassified as FAKE): 33
+* True Positives (REAL correctly identified): 600
+* True Negatives (FAKE correctly identified): 566
+* False Positives (FAKE misclassified as REAL): 68
+* False Negatives (REAL misclassified as FAKE): 33
+
+## Summary
+Fake news spreads quickly on the internet and can cause serious problems. It can confuse people, create panic, or spread lies. A Machine Learning project in Python can help solve this issue. Using Natural Language Processing (NLP), we can build a model that reads the news headline or article and predicts if it’s real or fake. This project helps people and media companies check information before trusting it
