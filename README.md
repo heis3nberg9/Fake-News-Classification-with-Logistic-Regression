@@ -1,6 +1,11 @@
-# Fake News Classification with Logistic Regression
+# Fake News Classification System
 
+A Machine Learning project to detect misinformation using Logistic Regression and NLP.
 
+🔗 Live Demo
+Check out the live web application here:
+
+👉 https://fake-news-detector-with-logistic-regression.streamlit.app/
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/heis3nberg9/Fake-News-Classification-with-Logistic-Regression/blob/main/notebooks/fake_news_classification.ipynb)
 
 This project achieves 92% accuracy using Logistic Regression...
@@ -18,17 +23,17 @@ The Answer is Python/ML. In this project we build a machine learning model to cl
 * The dataset is fairly balanced between FAKE and REAL articles, as shown in the label distribution plot.
 
 
-## Approach
-* **Preprocessing:**
-Combined the title and text columns into a single feature to give the model more signal.
-Split the data into 80% training and 20% testing using stratified sampling to preserve class balance.
+##🛠 Technical Stack
+* Language: Python
+* Libraries: Scikit-learn, Pandas, NumPy, Streamlit
+* Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
+* Classifier: Logistic Regression
+* Environment: WSL2 (Ubuntu)
 
-* **Feature Extraction:** TF-IDF Vectorization
-Used TfidfVectorizer with English stop words removed and a max_df=0.7 threshold to filter out terms that appear in more than 70% of documents.
-fit_transform was applied only on the training set; the test set was only transformed — this prevents data leakage.
+## Features
+* **Instant Prediction:** Users can input any headline and get an immediate classification.
 
-* **Model:**  Logistic Regression
-Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
+* **Interactive Web UI:** Built with Streamlit for a seamless user experience.
 
 
 ## Results
@@ -49,7 +54,11 @@ Trained a LogisticRegression model with max_iter=1000 to ensure convergence.
 * False Positives (FAKE misclassified as REAL): 68
 * False Negatives (REAL misclassified as FAKE): 33
 
+## Future Improvements
+
+* Integration of Sentiment Analysis to detect emotional manipulation.
+
 ## Summary
 Fake news spreads rapidly online and can have serious real-world consequences — from misleading the public to fueling panic and misinformation. Manually fact-checking every article is impractical, which is where Machine Learning comes in.
 This project builds a fake news classifier using Python and Natural Language Processing (NLP). The model is trained on a labeled dataset of real and fake news articles, learning to detect patterns in the text that distinguish credible reporting from misinformation. Given a news headline or article, it predicts whether the content is REAL or FAKE.
-The pipeline uses TF-IDF vectorization to convert raw text into meaningful numeric features, and Logistic Regression as the classification model — achieving a test accuracy of 92%
+The pipeline uses TF-IDF vectorization to convert raw text into meaningful numeric features, and Logistic Regression as the classification model achieving a test accuracy of 92%
