@@ -24,7 +24,7 @@ The Answer is Python/ML. In this project we build a machine learning model to cl
 * The dataset is fairly balanced between FAKE and REAL articles, as shown in the label distribution plot.
 
 
-##🛠 Technical Stack
+## Technical Stack
 * Language: Python
 * Libraries: Scikit-learn, Pandas, NumPy, Streamlit
 * Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
