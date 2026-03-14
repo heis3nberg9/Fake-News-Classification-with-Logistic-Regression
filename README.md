@@ -1,4 +1,10 @@
 # Fake News Classification with Logistic Regression
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/heis3nberg9/Fake-News-Classification-with-Logistic-Regression/blob/main/notebooks/fake_news_classification.ipynb)
+
+This project achieves 92% accuracy using Logistic Regression...
+
 ##  Overview
 We can't trust everything we come across online. All news are not real, right?
 So how will you detect fake news?
